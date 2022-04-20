@@ -1,0 +1,32 @@
+.input-container {
+	.container {
+		display: block;
+		border: solid 1px var(--primary-color);
+		position: relative;
+
+		& ~ img {
+			width: 20px;
+			height: 20px;
+
+			position: absolute;
+			top: 4px;
+			left: 4px;
+			&.email { background-image: url('../img/mail.svg');}
+			&.password { background-image: url('../img/lock.svg');}
+		}
+
+		&:focus {
+			border: solid 1px var(--primary-color);
+
+			& ~ img {
+				width: 20px;
+				height: 20px;
+
+				&.email { background-image: url('../img/mail-focus.svg');}
+				&.password { background-image: url('../img/lock-focus.svg');}
+			}
+		}
+	}
+
+
+}
