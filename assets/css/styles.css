@@ -167,7 +167,7 @@
   flex-direction: column;
   position: relative;
 }
-.container-input.text .icon {
+.container-input.text .icon.start {
   width: 20px;
   height: 20px;
   display: block;
@@ -177,6 +177,9 @@
 }
 .container-input.text .icon.start.email {
   background-image: url("../img/mail.svg");
+}
+.container-input.text .icon.start.eye {
+  background-image: url("../img/lock.svg");
 }
 .container-input.text .icon.end.eye {
   background-image: url("../img/lock.svg");

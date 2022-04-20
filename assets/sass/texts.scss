@@ -5,15 +5,18 @@
 	position: relative;
 
 	.icon {
-		width: 20px;
-		height: 20px;
-		display: block;
-		position: absolute;
-		top: 42px;
-    left: 11px;
 		&.start {
+			width: 20px;
+			height: 20px;
+			display: block;
+			position: absolute;
+			top: 42px;
+			left: 11px;
 			&.email { 
 				background-image: url('../img/mail.svg');
+			}
+			&.eye { 
+				background-image: url('../img/lock.svg');
 			}
 		}
 		&.end {
